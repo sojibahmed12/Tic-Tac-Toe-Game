@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(104, 100, 100, 0.382);
+}
+h2{
+    text-align: center;
+    margin-top: 50px
+}
+.tic-games {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+}
+
+.games {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.box {
+    height: 18vh;
+    width: 18vh;
+    border-radius: 10vh;
+    border: none;
+    background-color: rgb(123, 169, 169);
+    font-size: 4rem;
+    color: rgb(3, 58, 40);
+    transform: 0.3s;
+}
+.box:hover {
+    background-color: aqua;
+}
+
+.msg {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: rgb(3, 58, 40);
+
+}
+.hide {
+    display: none;
+}
+
+.reset {
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkslategrey;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+}
+.reset:hover {
+    background-color: rgb(6, 175, 119);
+    color: black;
+}
+
+footer{
+    height: 50px;
+    text-align: center;
+    /* background-color: rgba(162, 160, 160, 0.382); */
+    padding: 10px;
+    margin-top: 50px;
+}
+.fa-solid {
+    color: red;
+}
+.fa-brands {
+    color: rgb(3, 31, 77);
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
