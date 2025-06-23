@@ -14,8 +14,8 @@ This project is perfect for beginners looking to understand DOM manipulation and
 
 ## 🚀 Live Demo
 
-[Click here to play the game](https://your-live-demo-link.com)  
-*(Replace this with your live site URL)*
+[Click here to play the game]([https://your-live-demo-link.com](https://sojibahmed12.github.io/Tic-Tac-Toe-Game/))  
+
 
 ## 📂 Project Structure
 
